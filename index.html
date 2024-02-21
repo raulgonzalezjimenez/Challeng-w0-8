@@ -13,33 +13,37 @@
     <section class="first">
       <h1><i>ELIGE TUS ZAPATILLAS</i></h1>
       <h2>Tipo de zapatillas</h2>
-      <select name="" id="">
-        <option value="Value1">Tipos...</option>
-        <option value="Value2">Deportivas</option>
-        <option value="Value3">Casual</option>
-        <option value="Value4">Senderismo</option>
+      <select name="" class="Tipo">
+        <option value="nada">Tipos...</option>
+        <option value="Deportivas">Deportivas</option>
+        <option value="Casual">Casual</option>
+        <option value="Senderismo">Senderismo</option>
       </select>
       <section>
         <p><i>Talla de zapatilla:</i></p>
-        <select name="" id="">
-          39
-          <option value="Talla1">39</option>
-          <option value="Talla2">40</option>
-          <option value="Talla3">41</option>
-          <option value="Talla4">42</option>
+        <select name="" class="Talla">
+          <option value="nada">...</option>
+          <option value="39">39</option>
+          <option value="40">40</option>
+          <option value="41">41</option>
+          <option value="42">42</option>
         </select>
       </section>
-      <section>
+      <section class="second">
         <h2><i>MARCA:</i></h2>
-        <input type="checkbox" id="NIke" name="Nike" value="Nike" />
+        <input type="checkbox" class="Marcas" name="Nike" value="Nike" />
         <label for="Nike">Nike</label><br />
-        <input type="checkbox" id="Adidas" name="Adidas" value="Adidas" />
+        <input type="checkbox" class="Marcas" name="Adidas" value="Adidas" />
         <label for="Adidas">Adidas</label><br />
-        <input type="checkbox" id="Vans" name="Vans" value="Vans" />
+        <input type="checkbox" class="Marcas" name="Vans" value="Vans" />
         <label for="Vans">Vans</label><br />
-        <input type="checkbox" id="Quechua" name="Quechua" value="Quechua" />
+        <input type="checkbox" class="Marcas" name="Quechua" value="Quechua" />
         <label for="Quechua">Quechua</label><br />
       </section>
+      <section>
+        <button type="button">PEDIR</button>
+      </section>
+      <ph class="save" hidden>aqui tiene que ir el pedido</ph>
     </section>
   </body>
 </html>

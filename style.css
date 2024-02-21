@@ -21,3 +21,10 @@ body {
   border-radius: 85px; /* Bordes redondeados */
   background-image: url(https://img.freepik.com/foto-gratis/telon-fondo-textura-muro-hormigon-solido_53876-129493.jpg);
 }
+
+.second {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
