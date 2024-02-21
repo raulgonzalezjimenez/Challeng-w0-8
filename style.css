@@ -1,0 +1,23 @@
+body {
+  height: 80vh;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/024/358/552/non_2x/galaxy-space-wallpaper-in-the-style-of-dark-violet-and-light-violet-realistic-usage-of-light-and-color-richly-colored-skies-realistic-textures-generat-ai-free-photo.jpg);
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first {
+  background-color: blanchedalmond;
+  width: 500px;
+  height: 700px;
+  text-align: center;
+  padding: 16px;
+  border: 2px solid #000000; /* Borde */
+  box-shadow: 0px 0px 10px 5px rgb(255, 255, 255); /* Sombra */
+  border-radius: 85px; /* Bordes redondeados */
+  background-image: url(https://img.freepik.com/foto-gratis/telon-fondo-textura-muro-hormigon-solido_53876-129493.jpg);
+}
