@@ -8,6 +8,6 @@ export const talla = (event) => {
 };
 
 export const marca = () => {};
-document.querySelector(".Talla").addEventListener("change", talla);
-document.querySelector(".Tipo").addEventListener("change", list);
-document.querySelectorAll(".Marcas").forEach(marca);
+document.querySelector(".talla").addEventListener("change", talla);
+document.querySelector(".tipo").addEventListener("change", list);
+document.querySelectorAll(".marcas").forEach(marca);
